@@ -28,7 +28,7 @@ sublime-backup --update
 
 ### Get Snippets
 ```bash
-sublime-backup --get
+sublime-backup --get 
 ```
 
 ### Logout
@@ -58,7 +58,7 @@ sublime-backup --help
 - Create a virtual environment `virtualenv -p python3 venv`
 - Activate virtual environment `source venv/bin/activate` for linux
 - Install The Package `pip install --editable .`
-
+ 
 ----
 ## License
 > Apache 2.0
