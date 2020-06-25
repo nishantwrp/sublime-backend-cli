@@ -156,7 +156,7 @@ def cli(action):
     # Different Functions
 
     if (action == 'info'):
-        print("sublime-backup v0.1 \nsublime-backup is a basic command line tool that can be used to sync / backup your sublime snippets across Windows, Linux and MacOS.\n(c) 2019 Nishant Mittal\n")
+        print("sublime-backup v0.3 \nsublime-backup is a basic command line tool that can be used to sync / backup your sublime snippets across Windows, Linux and MacOS.\n(c) 2019 Nishant Mittal\n")
         print("Instructions\n\n1. For uploading your snippets to the server run `sublime-backup --update`. This Will DELETE previously uploaded snippets to this account and replace them by the new sublime snippets currently present in your computer.\n\n2. To download the snippets connected with your account run `sublime-backup --get`. This will CREATE a directory snippets in the present working directory.The snippets are not directly downloaded to your sublime-text-3 folder in order to avoid loss of data\n\n3. To logout run `sublime-backup --logout`.\n\n4. To see the help menu run `sublime-backup --help`.")
     if action == 'logout':
         config['auth']['logged'] = 'false'
