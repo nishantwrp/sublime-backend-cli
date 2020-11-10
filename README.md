@@ -6,7 +6,7 @@
 
 ---
 ## Supported OS
-> Windows , Linux , OS X
+> Windows , Linux , OS X 
 
 ---
 ## Documentation
